@@ -44,9 +44,9 @@ git clone https://github.com/diabloproject/nvim-config.git "${XDG_CONFIG_HOME:-$
 ```
 
 
-```
+```pwsh
 # on Windows
-git clone https://github.com/diabloproject/nvim-config.git %userprofile%\AppData\Local\nvim\ 
+git clone https://github.com/diabloproject/nvim-config.git $Env:UserProfile\AppData\Local\nvim\ 
 ```
 
 ### Post Installation
